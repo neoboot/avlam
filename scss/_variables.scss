@@ -1,0 +1,48 @@
+// Body
+$body-bg: #fafafa;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-serif: georgia,serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: lighter;
+$breadcrumb-divider: quote("»");
+
+// Spacing
+$enable-negative-margins: true;
+$small-font-size: .775em;
+//
+//// Colors
+//$blue: #3490dc;
+//$indigo: #6574cd;
+//$purple: #9561e2;
+//$pink: #f66d9b;
+//$red: #e3342f;
+//$orange: #f6993f;
+//$yellow: #ffed4a;
+//$green: #38c172;
+//$teal: #4dc0b5;
+//$cyan: #6cb2eb;
+$primary: #160873;
+$success: #0FBF04;
+
+.badge {
+    line-height: inherit;
+}
+
+.font-serif {
+    font-family: $font-family-serif;
+}
+
+svg[fill=currentColor] {
+    display: inline-block;
+    vertical-align: -0.125em;
+    width: 1em;
+    height: 1em;
+}
+
+svg[fill=primary] {
+    fill: $primary!important;
+}

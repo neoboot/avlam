@@ -1,3 +1,6 @@
 node_modules
 creds.ini
 .idea
+assets/css/app.css
+assets/css/*.css.map
+assets/js/app.js

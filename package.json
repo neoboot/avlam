@@ -1,20 +1,20 @@
 {
-  "name": "bootstrap-npm-starter",
-  "version": "1.4.0",
+  "name": "avlam-bootstrap5-theme",
+  "version": "1.0.0",
   "private": true,
-  "description": "Demo project for building a Bootstrap powered site via npm.",
-  "author": "mdo",
+  "description": "Free Bootstrap 5 Agency Template.",
+  "author": "bpstr",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twbs/bootstrap-npm-starter.git"
+    "url": "git+https://github.com/neoboot/avlam.git"
   },
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap-npm-starter/issues"
+    "url": "https://github.com/neoboot/avlam/issues"
   },
-  "homepage": "https://github.com/twbs/bootstrap-npm-starter#readme",
+  "homepage": "https://neoboot.github.io/avlam/",
   "scripts": {
-    "build": "npm run css && cp node_modules/bootstrap/dist/js/bootstrap.min.js assets/js/app.js",
+    "build": "npm run copy-aos && npm run css && cp node_modules/bootstrap/dist/js/bootstrap.min.js assets/js/app.js",
     "css-compile": "sass --style compressed --source-map --embed-sources --no-error-css --load-path=node_modules scss/:assets/css/",
     "css-lint": "stylelint scss/",
     "css-prefix": "postcss --replace assets/css/app.css --use autoprefixer --map",
@@ -23,10 +23,12 @@
     "server": "serve --listen 3000",
     "start": "npm-run-all --parallel watch server",
     "watch": "nodemon -e html,scss -x \"npm run css\"",
+    "copy-aos": "cp node_modules/aos/dist/aos.css assets/css/ && cp node_modules/aos/dist/aos.js assets/js/",
     "test": "npm-run-all css-lint css"
   },
   "dependencies": {
     "@popperjs/core": "^2.9.3",
+    "aos": "^2.3.4",
     "bootstrap": "^5.1.0",
     "bootstrap-icons": "^1.5.0"
   },

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="300" height="175" alt="Bootstrap npm logo">
+  <img src="https://neoboot.github.io/avlam/assets/logo.svg" width="300" height="175" alt="Bootstrap npm logo">
 </p>
 
 <h3 align="center">Bootstrap npm starter template</h3>

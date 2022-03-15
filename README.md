@@ -1,7 +1,8 @@
-<p align="center">
-  <img src="https://neoboot.github.io/avlam/assets/logo.svg" width="300" height="175" alt="Bootstrap npm logo">
-</p>
+![neoboot Logo](https://raw.githubusercontent.com/neoboot/avlam/main/assets/logo-light.svg#gh-dark-mode-only)
+![neoboot Logo](https://raw.githubusercontent.com/neoboot/avlam/main/assets/logo.svg#gh-light-mode-only)
 
-<h3 align="center">Free Bootstrap 5 Agency Template</h3>
+# Avlam – Free Bootstrap 5 Agency Template
 
-<p align="center">Create new Bootstrap-powered npm projects in no time.</p>
+Create new Bootstrap-powered npm projects in no time.
+
+Instructions and details: https://neoboot.github.io/
